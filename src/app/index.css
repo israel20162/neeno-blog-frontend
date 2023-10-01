@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.list:nth-child(3n+2), .list:nth-child(5n+4), .list:nth-child(5n) {
+    @apply  border-l border-r border-black 
+}
+body::-webkit-scrollbar{
+    display: none;
+  }
+.no-scroll::-webkit-scrollbar{
+    display: none;
+  }

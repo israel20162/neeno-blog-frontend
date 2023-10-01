@@ -1,0 +1,3 @@
+.list:nth-child(3n+2), .list:nth-child(n+4), .list:nth-child(5n) {
+    
+}
